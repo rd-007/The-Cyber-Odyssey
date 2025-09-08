@@ -36,7 +36,6 @@
 - DVWA can be set up on a lightweight Ubuntu VM or Docker container.
 - **Option 1: Docker (Recommended)**
 
-
   ```bash
   docker run --rm -it -p 8081:80 vulnerables/web-dvwa
 
