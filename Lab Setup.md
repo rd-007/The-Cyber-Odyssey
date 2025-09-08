@@ -35,10 +35,14 @@
 ### DVWA (Victim)
 - DVWA can be set up on a lightweight Ubuntu VM or Docker container.
 - **Option 1: Docker (Recommended)**
+
+
   ```bash
   docker run --rm -it -p 8081:80 vulnerables/web-dvwa
----
+
+
 - Access at http://<DVWA-IP>:8081
+---
 
 - **Option 2: Manual Setup (Ubuntu/VM)**
 
@@ -50,6 +54,7 @@
 
 - 4. Start Apache & MySQL.
 
+  
   ```bash
     git clone https://github.com/digininja/DVWA.git /var/www/html/dvwa
 ---
@@ -60,10 +65,13 @@
 
 - 2. Access at http://<JuiceShop-IP>:3000
 
+    
     ```bash
     docker run --rm -p 3000:3000 bkimminich/juice-shop
 ---
 
 ### ✅ Lab Ready
 
-### ⚠️ Note: This lab is for education and practice only. Never attack systems you don’t own or have permission for.
+### ⚠️ Note: 
+- This lab is for education and practice only. 
+- Never attack systems you don’t own or have permission for.
